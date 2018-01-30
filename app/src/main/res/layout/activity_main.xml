@@ -4,81 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.trar.prashant.propt.MainActivity"
+    android:background="@android:color/darker_gray"
     android:orientation="vertical"
     android:padding="8dp"
+
     android:weightSum="6"
-    >
+    tools:context="com.trar.prashant.propt.MainActivity">
 
 
     <LinearLayout
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:orientation="horizontal"
-        android:layout_weight="2">
+        android:padding="5dp"
+        tools:ignore="ExtraText">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="94dp"
-            android:layout_weight="1"
-            android:alpha="0.5"
-
-            android:background="@mipmap/ic_launcher"
-
-            android:text="Action"
-            android:textColor="@android:color/black"
-            android:textSize="24sp"
-            android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/ibtn1"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorAccent"
+            android:elevation="24dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/Action" />
+
+        <ImageButton
+            android:id="@+id/ibtn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:background="@android:color/holo_purple"
+
+            android:elevation="24dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/Crime" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:orientation="horizontal"
-        android:layout_weight="2">
+        android:padding="5dp">
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/ibtn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:background="@color/colorPrimaryDark"
+            android:elevation="24dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/Drama" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/ibtn4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:background="@android:color/holo_orange_dark"
+            android:elevation="24dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/Romance" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="2"
         android:orientation="horizontal"
-        android:layout_weight="2">
+        android:padding="5dp">
 
         <ImageButton
-            android:id="@+id/imageButton8"
+            android:id="@+id/ibtn5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:background="@android:color/holo_red_dark"
+            android:elevation="24dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/Horror" />
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/ibtn6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:background="@android:color/holo_green_dark"
+            android:elevation="24dp"
+            android:padding="16dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/Sci_Fi" />
     </LinearLayout>
 </LinearLayout>
