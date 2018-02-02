@@ -7,7 +7,7 @@
     android:background="@android:color/darker_gray"
     android:orientation="vertical"
     android:padding="8dp"
-
+    android:backgroundTint="#ffffff"
     android:weightSum="6"
     tools:context="com.trar.prashant.propt.MainActivity">
 
@@ -31,7 +31,7 @@
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Action" />
+            app:srcCompat="@drawable/action" />
 
         <ImageButton
             android:id="@+id/ibtn2"
@@ -42,7 +42,7 @@
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Crime" />
+            app:srcCompat="@drawable/crime" />
     </LinearLayout>
 
     <LinearLayout
@@ -61,7 +61,7 @@
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Drama" />
+            app:srcCompat="@drawable/drama" />
 
         <ImageButton
             android:id="@+id/ibtn4"
@@ -72,7 +72,7 @@
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Romance" />
+            app:srcCompat="@drawable/romance" />
     </LinearLayout>
 
     <LinearLayout
@@ -91,7 +91,7 @@
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Horror" />
+            app:srcCompat="@drawable/horror" />
 
         <ImageButton
             android:id="@+id/ibtn6"
@@ -102,6 +102,6 @@
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/Sci_Fi" />
+            app:srcCompat="@drawable/sci_fi" />
     </LinearLayout>
 </LinearLayout>
