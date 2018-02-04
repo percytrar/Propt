@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Propt.iml" filepath="$PROJECT_DIR$/Propt.iml" />
-      <module fileurl="file://C:\Users\Proforty7\Documents\Propt\Propt.iml" filepath="C:\Users\Proforty7\Documents\Propt\Propt.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Proforty7\Documents\Propt\app\app.iml" filepath="C:\Users\Proforty7\Documents\Propt\app\app.iml" />
     </modules>
   </component>
 </project>

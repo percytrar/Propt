@@ -7,7 +7,6 @@
     android:background="@android:color/darker_gray"
     android:orientation="vertical"
     android:padding="8dp"
-    android:backgroundTint="#ffffff"
     android:weightSum="6"
     tools:context="com.trar.prashant.propt.MainActivity">
 
@@ -23,10 +22,11 @@
 
 
         <ImageButton
-            android:id="@+id/ibtn1"
-            android:layout_width="176dp"
+            android:id="@+id/ibtn_action"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:layout_weight="1"
+            android:onClick="mAction"
             android:background="@color/colorAccent"
             android:elevation="24dp"
             android:padding="16dp"
@@ -34,11 +34,12 @@
             app:srcCompat="@drawable/action" />
 
         <ImageButton
-            android:id="@+id/ibtn2"
+            android:id="@+id/ibtn_crime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="mCrime"
             android:background="@android:color/holo_purple"
-
+            android:layout_weight="1"
             android:elevation="24dp"
             android:padding="16dp"
             android:scaleType="centerCrop"
@@ -53,10 +54,11 @@
         android:padding="5dp">
 
         <ImageButton
-            android:id="@+id/ibtn3"
+            android:id="@+id/ibtn_drama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="mDrama"
             android:background="@color/colorPrimaryDark"
             android:elevation="24dp"
             android:padding="16dp"
@@ -64,10 +66,11 @@
             app:srcCompat="@drawable/drama" />
 
         <ImageButton
-            android:id="@+id/ibtn4"
+            android:id="@+id/ibtn_romance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="mRomance"
             android:background="@android:color/holo_orange_dark"
             android:elevation="24dp"
             android:padding="16dp"
@@ -83,10 +86,11 @@
         android:padding="5dp">
 
         <ImageButton
-            android:id="@+id/ibtn5"
+            android:id="@+id/ibtn_horror"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="mHorror"
             android:background="@android:color/holo_red_dark"
             android:elevation="24dp"
             android:padding="16dp"
@@ -94,10 +98,11 @@
             app:srcCompat="@drawable/horror" />
 
         <ImageButton
-            android:id="@+id/ibtn6"
+            android:id="@+id/ibtn_sci"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="mSci_fi"
             android:background="@android:color/holo_green_dark"
             android:elevation="24dp"
             android:padding="16dp"
